@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.study.kaoqin.kaoqin.teacher.activity.fragment.AddStudentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/student_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/add_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="?attr/colorPrimary"
+        app:elevation="8dp"
+        />
+
+</FrameLayout>

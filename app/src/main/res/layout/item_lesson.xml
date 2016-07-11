@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="12dp"
+                android:elevation="2dp"
+    >
+
+    <FrameLayout
+        android:id="@+id/avatar_fg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/avatar_tv"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/round_background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp"
+            tools:text="I"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar_fg"
+        android:layout_toEndOf="@id/avatar_fg"
+        android:layout_toRightOf="@id/avatar_fg"
+        android:textColor="@color/material_text_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        tools:text="工程经济学"/>
+
+    <TextView
+        android:id="@+id/qiandao_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/student_name"
+        android:layout_alignStart="@id/student_name"
+        android:layout_below="@id/student_name"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:textColor="@color/md_grey_600"
+        android:textSize="13sp"
+        tools:text="本次签到人数：28人"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/alpha_10_black"
+        android:layout_below="@id/qiandao_count"
+        android:layout_alignLeft="@id/qiandao_count"
+        android:layout_marginTop="8dp"
+        ></View>
+
+
+    <ImageView
+        android:id="@+id/main_item_xuanxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/option"
+
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/main_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/qiandao_count"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/alpha_30_black"
+        android:textSize="12sp"
+        android:visibility="visible"
+        tools:text="2014 12 12"/>
+
+
+</RelativeLayout>

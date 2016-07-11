@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_teacher"
+            android:title="课程管理"></item>
+
+        <item
+            android:id="@+id/nav_guanli"
+
+            android:title="学生管理"/>
+        <item
+            android:id="@+id/nav_add"
+
+            android:title="添加学生"/>
+
+    </group>
+
+</menu>

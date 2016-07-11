@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:elevation="2dp"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="12dp"
+    >
+
+    <FrameLayout
+        android:id="@+id/avatar_fg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/avatar_tv"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/round_background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp"
+            tools:text="I"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar_fg"
+        android:layout_toEndOf="@id/avatar_fg"
+        android:layout_toRightOf="@id/avatar_fg"
+        android:textColor="@color/material_text_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="周杰伦"/>
+
+
+    <TextView
+        android:id="@+id/student_xuehao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/student_name"
+        android:layout_alignBottom="@id/student_name"
+        android:maxLines="2"
+        android:layout_marginBottom="1dp"
+        android:textColor="@color/md_grey_600"
+        android:textSize="12sp"
+        tools:text="学号：20112141"/>
+
+
+    <TextView
+        android:id="@+id/student_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/student_name"
+        android:layout_alignStart="@id/student_name"
+        android:layout_below="@id/student_name"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:textColor="@color/md_grey_600"
+        android:textSize="13sp"
+        tools:text="签到次数：28次"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignLeft="@id/student_count"
+        android:layout_below="@id/student_count"
+        android:layout_marginTop="8dp"
+        android:background="@color/alpha_10_black"
+        ></View>
+
+
+    <ImageView
+        android:id="@+id/main_item_xuanxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/option"
+
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

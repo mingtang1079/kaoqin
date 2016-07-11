@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/sort_nodao"
+        android:orderInCategory="100"
+        android:title="未到的学生"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sort_all_stu"
+        android:orderInCategory="100"
+        android:title="到了的学生"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">教室考勤</string>
+    <string name="about">关于</string>
+    <string name="user_choose">请问您是：</string>
+    <string name="title_activity_student_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="student_number">学号</string>
+    <string name="name">姓名</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="output">统计打印</string>
+
+
+    <string-array name="teacher">
+        <item>修改课程名</item>
+        <item>查看已签到学生</item>
+
+    </string-array>
+</resources>

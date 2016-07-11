@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.study.kaoqin.kaoqin.UserChooseActivity">
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/output"
+        android:orderInCategory="100"
+        android:title="@string/output"
+        app:showAsAction="never"/>
+
+
+</menu>
